@@ -37,7 +37,7 @@ add constraint FK_GradeId
 foreign key (GradeId) references Grade(Id)
 
 select [Name] from Course
-union all
+union
 select [Name] from AchievementType
 
 select * from Teacher
